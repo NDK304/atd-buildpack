@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
+echo 'CURRENT_PATH'
+echo $PWD
+ls
 mv /app/vendor/zlib/lib/libz.so.1 /app/vendor/zlib/lib/libz.so.1.old
 ln -s /app/.apt/lib/x86_64-linux-gnu/libz.so.1
